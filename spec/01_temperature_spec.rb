@@ -19,7 +19,7 @@
 #    1.0 / 2.0 => 0.5
 
 require "01_temperature"
-
+require "rspec"
 describe "temperature conversion functions" do
   describe "#ftoc" do
     it "converts freezing temperature" do
